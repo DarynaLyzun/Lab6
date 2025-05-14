@@ -12,7 +12,5 @@ class Newton_class : public Solve_class
 
         void setMax(int vol_max);
 
-        double derivative(Func f, double x);
-
         int count(Func f, double &x);
 };
